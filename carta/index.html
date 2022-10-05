@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi mejor amiga.</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body bgcolor="#e158e1">
+    <div id="particles-js"></div>
+    <h1 class="titulo">Para mi niña, mi pequeña❤️pancha.❤️</h1>
+    <h4 class="texto1"> Por favor presiona play antes de comenzar.</h4>
+    <audio controls class="audio">
+        
+        <source src="musica/Juanes - MeEnamora.mp3" type="audio/mp3">
+        <source src="musica/Dibujame.mp3" type="audio/mp3">
+        
+
+        Tu navegador no soporta audio HTML5.
+    </audio>
+    
+ 
+    <img src="img/pancha.png" class="fly">
+    <h4 class="face">Para <a href="https://www.facebook.com/noemilaprince">Denky</a></h4>
+
+    <h4 class="texto1">Muchas veces nos hemos peleado por muchas cosas, aveces mi mente me gana, pero tu sabes lo mucho
+        que te quiero, no soy lo mejor que hay en el mundo y desde que llegaste a mi vida todo cambio, confiaste en mi
+        como nadie mas habia confiado, me llenaste de alegrias y sonrisas, con tus locuras y todo lo demas, este es un
+        pequeño presente que te hago, pronto se acerca nuestra fecha de M.a Y mirame feliz, disculpa si aveces te hago
+        sentir mal o alguna otra cosa, despues de todo ya no alargo las cosas y te paso a preguntar lo siguiente.</h4>
+
+
+
+    <h3 class="texto2">¿Me dejarias Comer helado o Salir a pasear con tigo?</h3>
+    <button id="si" class="boton">Si</button>
+    <button id="no" class="boton">Nope</button>
+
+
+
+
+    <script>
+        const botonsi = document.getElementById('si');
+        const botonno = document.getElementById('no');
+
+        const clicksi = () => {
+            alert('Hola mor❤️');
+            alert('te dije que te escribiria una carta.');
+            alert('Pero pues la verdad queria hacer algo un poquito mas especial.');
+            alert('Asi que decidi hacerte un regalo a mi estilo.');
+            alert('no soy muy bueno escribiendo cartas.');
+            alert('y mi letra no es la mejor que digamos.');
+            alert('aun asu decidi hacerte una carta con edicion.');
+            alert('no mucho lo que tengo');
+            alert('espero te guste, te quiero muchoooo');
+
+
+
+
+            window.open('https://www.canva.com/design/DAFNtAZPq_s/dweT58ccbmO_8zYpqGX_RA/view?utm_content=DAFNtAZPq_s&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink');
+
+
+
+        };
+
+        const clickno = () => {
+
+            botonno.style.position = 'absolute';
+            botonno.style.top = (Math.random() * window.innerHeight) + 'px';
+            botonno.style.left = (Math.random() * window.innerWidth) + 'px';
+        };
+
+        botonsi.addEventListener('click', clicksi);
+        botonno.addEventListener('mouseover', clickno);
+
+
+
+    </script>
+
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
